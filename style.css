@@ -1,61 +1,162 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-head title{
+
+head title {
     font-size: 70px;
     margin-bottom: 50px;
 }
 
-header{
-    font-family:'Courier New', Courier, monospace;
+header {
+    font-family: 'Courier New', Courier, monospace;
     text-align: left;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color:azure;
+    background-color: azure;
 }
 
-header li{
-    display:inline-block;
+header li {
+    display: inline-block;
     margin-right: 40px;
 }
 
-.coolbg{
-    height: 700px;
+.coolbg {
+    height: 100vh;
     width: auto;
     margin: 0 auto;
-    background-image: url(coolbg.jpg);
+    background-image: url(./images/coolbg.jpg);
     background-size: cover;
     background-position: center;
 }
 
-main p{
-    margin-left: 60px;
-    padding-top: 90px;
+#mainpage {
+    margin-left: 150px;
+    padding-top: 300px;
     font-size: 50px;
 }
 
-#nav{
-    display:flex;
-    margin-left:50px;
+#nav {
+    display: flex;
+    margin-left: 50px;
 }
 
-#nav a:hover{
+#nav a:hover {
     color: rgb(156, 153, 153);
 }
 
-#nav a{
-color: rgb(0, 0, 0);
-text-decoration: none;
+#nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
-#navtitle{
-    margin-right:auto;
+#navtitle {
+    margin-right: auto;
 }
 
-footer p{
-    margin-left: 50px;
+footer h2 {
+    margin-left: 150px;
     padding-top: 60px;
     padding-bottom: 60px;
-    font-size: 20px;
+    font-size: 30px;
+}
+
+footer p {
+    margin-left: 150px;
+    font-size: 15px;
+}
+
+.page2 {
+    background-image: url('./images/coolbg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+}
+
+.abouttext h1 {
+    font-size: 50px;
+    padding-top: 200px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+
+.abouttext p {
+    line-height: 1.5;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 500px;
+    padding-left: 150px;
+}
+
+.myimage {
+    width: auto;
+    height: 500px;
+    padding-top: 120px;
+    padding-left: 200px;
+}
+
+.page3 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 100px;
+}
+
+.workpage {
+    max-width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 20px;
+}
+
+.workpage:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.workpage img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.workpage h3,
+.workpage p {
+    padding: 18px;
+}
+
+
+.workpage p {
+    font-size: 15px;
+    text-align: left
+}
+
+.workpage h3 {
+    font-size: 25px;
+}
+
+.workselected h1 {
+    font-size: 50px;
+    padding-top: 120px;
+    padding-left: 200px;
+}
+
+.main-background {
+    background-image: url('./images/coolbg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
