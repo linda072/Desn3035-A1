@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+head title{
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+header{
+    font-family:'Courier New', Courier, monospace;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:azure;
+}
+
+header li{
+    display:inline-block;
+    margin-right: 40px;
+}
+
+.coolbg{
+    height: 700px;
+    width: auto;
+    margin: 0 auto;
+    background-image: url(coolbg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+main p{
+    margin-left: 60px;
+    padding-top: 90px;
+    font-size: 50px;
+}
+
+#nav{
+    display:flex;
+    margin-left:50px;
+}
+
+#nav a:hover{
+    color: rgb(156, 153, 153);
+}
+
+#nav a{
+color: rgb(0, 0, 0);
+text-decoration: none;
+}
+
+#navtitle{
+    margin-right:auto;
+}
+
+footer p{
+    margin-left: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 20px;
+}
